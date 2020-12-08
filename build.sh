@@ -1,0 +1,2 @@
+clan  -o libxpcsniffer.dylib  -install_name @rpath/libxpcsniffer.dylib  -dynamiclib  fishhook.c  Tweak_fish.mm -I/Users/apple/opt/theos/vendor/include -I/Users/apple/opt/theos/vendor/include -I. -framework Foundation  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk
+clang  -o libxpcsniffer_mac.dylib  -install_name @rpath/libxpcsniffer.dylib  -dynamiclib  fishhook.c  Tweak_fish.mm -I/Users/apple/opt/theos/vendor/include -I/Users/apple/opt/theos/vendor/include -I. -framework Foundation  
